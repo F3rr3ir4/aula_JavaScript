@@ -1,0 +1,35 @@
+<!-- ******************************************
+*  Author : Leandro Ferreira Netto 
+*  Created On : Mon Nov 18 2019
+*  File : index.html
+******************************************* -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Author">
+    <title>Minha página</title>
+
+    <!-- <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">  -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body onload="load()">
+   
+    <h1>Minha página</h1>
+    <button type="button" onclick="clicou()"> Clique aqui</button>
+    <h3 id="agradecimento" onclick="redirecionar()"></h3>    
+    <h3 onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</h3>
+    <h3 onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</h3>
+    <select onchange="funcaoChange(this)">
+        <option value="1"> Valor 1 </option>
+        <option value="2"> Valor 2 </option>
+        <option value="3"> Valor 3</option>
+    </select>
+</body>
+
+</html>
+
